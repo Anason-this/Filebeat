@@ -1,7 +1,7 @@
 filebeat.inputs:
 - type: log
   paths:
-    - /path/to/your/logs/*.log
+    - //home/siem-elk/ELK_Stack_Docker_Compose/logs_here
 
 output.elasticsearch:
   hosts: ["https://172.16.3.55:5601/app/home#/"]
